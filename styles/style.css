@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;1,300;1,400&family=Roboto&display=swap");
+* {
+  box-sizing: border-box;
+}
+body {
+  background-image: url("../public/assets/living-room.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  color: #fff;
+  font-family: Roboto;
+}
+h1.logo {
+  margin-left: 15%;
+}
+.nav-items {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  align-items: center;
+  justify-content: center;
+}
+.list-items {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  list-style-type: none;
+}
+.caller-icon {
+  padding-top: 15px;
+}
+.contact {
+  display: flex;
+}
+.hr-line {
+  border: 1px solid white;
+  margin-left: 27%;
+}
+/* banner */
+.banner-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+}
+.banner-section .heading {
+  font-size: 30px;
+  text-align: center;
+  margin-top: -5%;
+  font-weight: 600;
+}
+.banner-section #banner-btn {
+  font-size: 21px;
+  font-weight: 500;
+  padding: 10px 30px;
+  border-radius: 20px;
+  color: #fff;
+  background-color: transparent;
+  border: 1px solid #fff;
+}
+.banner-section #banner-btn:hover {
+  background-color: #fff;
+  color: rgb(104, 103, 103);
+}
+.part-1 {
+  background-color: gray;
+  opacity: 0.5;
+  position: absolute;
+  right: 5%;
+  top: 20%;
+}
+.part-2 {
+  background-color: gray;
+  opacity: 0.5;
+  position: absolute;
+  bottom: 15%;
+  right: 40%;
+}
+.part-1:hover,
+.part-2:hover {
+  opacity: 1;
+  background-color: transparent;
+}
+.part-1 img {
+  margin-right: -25%;
+  margin-bottom: -10%;
+}
+.part-2 img {
+  margin-left: -30%;
+  margin-top: -5%;
+  margin-bottom: -10%;
+}
+
+/* time line  */
+div.part-1::before {
+  content: "";
+  border-right: 3px solid #fff;
+  position: absolute;
+  text-align: center;
+  padding-top: 40%;
+  margin-left: 50%;
+  margin-top: 38%;
+}
+
+div .part-1::after {
+  content: "";
+  border: 1px solid goldenrod;
+  width: 15px;
+  height: 15px;
+  opacity: 1;
+  border-radius: 50%;
+  background-color: #fff;
+  position: absolute;
+  padding: 2.5px 5px;
+  margin-left: 47%;
+  margin-top: 36%;
+}
+
+div.part-2::before {
+  content: "";
+  border-bottom: 3px solid #fff;
+  position: absolute;
+  padding-right: 30%;
+  margin-left: 100%;
+  margin-top: 20%;
+}
+
+div .part-2::after {
+  content: "";
+  border: 1px solid goldenrod;
+  width: 15px;
+  height: 15px;
+  opacity: 1;
+  border-radius: 50%;
+  background-color: #fff;
+  position: absolute;
+  padding: 2.5px 5px;
+  display: inline-block;
+  margin-left: 130%;
+  margin-top: -18%;
+}
