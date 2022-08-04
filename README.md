@@ -16,6 +16,6 @@
 ### Time taken to complete this project:
 - It took 30-40 minutes to create HTML and 2-3 hrs to complete css styling.
 
-**Live Link :** [Deployed Link](https://html-css-project-10.vercel.app/)
+**Live Link :** [Deployed Link](https://html-css-project-10.netlify.app/)
 >### Preview :
 ![Homepage screenshot](./public/InteriorDesignLandingpage.png "Interior Design Landing Page")
