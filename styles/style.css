@@ -138,3 +138,42 @@ div .part-2::after {
   margin-left: 130%;
   margin-top: -18%;
 }
+
+/*Media Queries  */
+@media only screen and (max-width: 1068px) {
+  .banner-section {
+    grid-template-columns: 1fr;
+  }
+}
+@media only screen and (max-width: 921px) {
+  .banner-section .heading h1 {
+    font-size: 24px;
+    margin-top: 5%;
+  }
+  .part-1 {
+    top: 45%;
+    margin-left: 5%;
+  }
+  .part-2 {
+    top: 75%;
+  }
+}
+@media only screen and (max-width: 795px) {
+  .list-item,
+  .part-1::after,
+  .part-1::before {
+    display: none;
+  }
+  div.part-2::after,
+  .part-2::before {
+    display: none;
+  }
+  .part-2 {
+    width: 354px;
+    height: 162px;
+    left: 5%;
+  }
+  .contact h3 {
+    font-size: 12px;
+  }
+}
